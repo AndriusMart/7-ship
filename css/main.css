@@ -5,6 +5,10 @@ footer{
     width: 1200px;
     margin-left:calc(50% - 600px);
 }
+.logo img{
+    background-color: bisque;
+    width: 100px;
+}
 
 .container {
     position: relative;
@@ -27,10 +31,13 @@ footer{
       text-align:left;
   }
   .line{
+      margin: 0;
       padding: 2px;
       background-color: red;
 
   }
   .wrapper {
+      margin: 0;
+      margin-bottom: -5px;
       width: 100%;
   }
