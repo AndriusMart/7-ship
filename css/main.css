@@ -1,0 +1,36 @@
+header,
+main,
+footer{
+    display: inline-block;
+    width: 1200px;
+    margin-left:calc(50% - 600px);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 70px;
+    right: 200px;
+  }
+  .centered h1{
+      font-size: 100px;
+      color: black;
+      margin: 0;
+  }
+  .centered p {
+      font-size: 20px;
+      color: black;
+      text-align:left;
+  }
+  .line{
+      padding: 2px;
+      background-color: red;
+
+  }
+  .wrapper {
+      width: 100%;
+  }
