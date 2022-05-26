@@ -1,6 +1,11 @@
 header,
-main,
 footer{
+    display: inline-block;
+    width: 1100px;
+    margin-left:calc(50% - 550px);
+}
+main
+{
     display: inline-block;
     width: 1200px;
     margin-left:calc(50% - 600px);
@@ -17,11 +22,11 @@ footer{
   }
   .centered {
     position: absolute;
-    top: 70px;
-    right: 200px;
+    top: 60px;
+    right: 100px;
   }
   .centered h1{
-      font-size: 100px;
+      font-size: 150px;
       color: black;
       margin: 0;
   }
@@ -29,6 +34,7 @@ footer{
       font-size: 20px;
       color: black;
       text-align:left;
+      font-weight: bold;
   }
   .line{
       margin: 0;
@@ -40,4 +46,7 @@ footer{
       margin: 0;
       margin-bottom: -5px;
       width: 100%;
+  }
+  .style-footer a{
+      text-decoration: none;
   }
